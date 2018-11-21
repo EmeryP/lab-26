@@ -8,7 +8,7 @@ Component Based UI
 Emery Parks
 
 ### Links and Resources
-* [codesandbox](https://codesandbox.io/s/3rx7pkkwrp)
+* [code sandbox](https://codesandbox.io/s/3rx7pkkwrp)
 
 #### UML
 1) App kicks off on index.js
