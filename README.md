@@ -1,44 +1,17 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB
+Component Based UI
 =================================================
 
 ## Project Name
+Component Based UI
 
-### Author: Student/Group Name
+### Author: 
+Emery Parks
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
-
-### Modules
-
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* [codesandbox](https://codesandbox.io/s/3rx7pkkwrp)
 
 #### UML
-Link to an image of the UML for your application and response to events
+1) App kicks off on index.js
+2) Index hits App.js, the Counter class return value is then passed into the App class
+3) The App class is the return value of the Counter class on index.js
+4) Counter is then rendered
